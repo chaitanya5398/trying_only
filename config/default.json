@@ -6,25 +6,26 @@
   "auth": {
     "token": {
       "secret": "GinXiwJkUBmFJFC63MC5epYhJhuHN4ft0YWbv6VQ7BottOgIsWeEp4Gu9/dOp7oWSanFP+pYYIoVG9gra/Zuqw=="
-    },
-    "local": {
-      //I made a change
-      //"usernameField" :  "username",
       },
-    "facebook": {
-      "clientID": "your facebook client id",
-      "clientSecret": "your facebook client secret",
-      "permissions": {
-        "scope": ["public_profile","email"]
-      }
-    },
-    "google": {
-      "clientID": "your google client id",
-      "clientSecret": "your google client secret",
-      "permissions": {
-        "scope": ["profile"]
-      },
-      "succesRedirect": "/home.html"
-    }
-  }
-}
+      "local": {
+        "usernameField": "username"
+        },
+
+      "facebook": {
+          "clientID": "your facebook client id",
+          "clientSecret": "your facebook client secret",
+          "permissions": {
+            "scope": ["public_profile","email"]
+          }
+          },
+        "google": {
+            "clientID": "your google client id",
+            "clientSecret": "your google client secret",
+            "permissions": {
+              "scope": ["profile"]
+            }
+
+            },
+            "successRedirect": "/home.html"
+          }
+        }
